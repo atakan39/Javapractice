@@ -1,10 +1,6 @@
 package tasks_Day36Inheritance_SetInfo;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-
-public class Assestment3 {
+public class Practices {
     public static void main(String[] args) {
 
        double number=add(3.4);
