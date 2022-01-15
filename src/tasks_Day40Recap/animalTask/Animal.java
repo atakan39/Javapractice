@@ -144,7 +144,6 @@ public class Animal {
                 '}';
     }
 
-    // ddd sdsddsdsddds
 }
 /*
 1. Create a class named Animal:
