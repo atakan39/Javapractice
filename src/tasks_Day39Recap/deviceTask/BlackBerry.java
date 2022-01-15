@@ -1,4 +1,4 @@
-package tasks_Day40Recap.deviceTask;
+package tasks_Day39Recap.deviceTask;
 
 public class BlackBerry extends Phone{
 

@@ -1,4 +1,4 @@
-package tasks_Day40Recap.animalTask;
+package tasks_Day39Recap.animalTask;
 
 public class Eagle extends WildAnimal{
 

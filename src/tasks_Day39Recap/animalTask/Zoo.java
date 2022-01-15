@@ -1,4 +1,4 @@
-package tasks_Day40Recap.animalTask;
+package tasks_Day39Recap.animalTask;
 
 public class Zoo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package tasks_Day40Recap.animalTask;
+package tasks_Day39Recap.animalTask;
 
 public class Lion extends WildAnimal{
     public Lion(String name, String breed, String color, String size, char gender, int age, boolean isWild, boolean isFriendly, boolean isPlayable) {
