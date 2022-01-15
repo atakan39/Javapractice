@@ -5,6 +5,7 @@ public class Device {
     private String brand, model;
     private double price;
     private boolean hasBattery;
+
     private static boolean hasPowerButton;
 
     static {
@@ -79,9 +80,9 @@ public class Device {
         return "Device{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
-                ", price=" + price +
+                ", price= $" + price +
                 ", hasBattery=" + hasBattery +
-                ", hasPowerButton" + hasPowerButton +
+                ", hasPowerButton=" + hasPowerButton +
                 '}';
     }
 }
