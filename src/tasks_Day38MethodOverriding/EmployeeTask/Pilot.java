@@ -7,6 +7,6 @@ public class Pilot extends Employee{
 
     @Override
     public void work() {
-        System.out.println(getJobTitle()+" "+getName()+" is flying to paris");
+        System.out.println(getJobTitle()+" "+getName()+" is flying");
     }
 }
