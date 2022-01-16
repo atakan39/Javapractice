@@ -24,6 +24,10 @@ public class Student extends Person{
     }
 
     public void setStudentId(int studentId) {
+        if(studentId<=0){
+            System.err.println("invalid student id");
+            System.exit(1);
+        }
         this.studentId = studentId;
     }
 
@@ -53,10 +57,10 @@ public class Student extends Person{
 
     public Student(String name, int age, char gender, int studentId, String fieldOfStudy, char grade, String schoolName) {
         super(name, age, gender);
-        this.studentId = studentId;
-        this.fieldOfStudy = fieldOfStudy;
-        this.grade = grade;
-        this.schoolName = schoolName;
+        setStudentId(studentId);
+        setFieldOfStudy(fieldOfStudy);
+        setGrade(grade);
+        setSchoolName(schoolName);
     }
 
     public void study(){
