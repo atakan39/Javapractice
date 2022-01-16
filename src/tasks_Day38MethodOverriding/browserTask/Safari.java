@@ -11,4 +11,5 @@ public class Safari extends Browser{
     public void closeBrowser() {
         System.out.println("closing safari browser");
     }
+
 }
