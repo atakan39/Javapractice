@@ -1,7 +1,5 @@
 package tasks_Day40.studentTask;
 
-import java.util.Collections;
-
 public class Person {
 
     private String name;
@@ -62,6 +60,12 @@ public class Person {
     }
     public void sleep(){
         System.out.println(name+" is sleeping");
+    }
+
+    public Person(String name, int age, char gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
     }
 
     @Override
