@@ -1,4 +1,4 @@
-package tasks_day07;
+package tasks_Day07;
 
 public class BiggestNumber {
     public static void main(String[] args) {
