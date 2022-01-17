@@ -19,7 +19,32 @@ public class Person {
     }
 
     public void setName(String name) {
-        int specialChars=0;
+
+        if(name.isEmpty()){
+            System.err.println("Invalid Name: "+name);
+            System.exit(1);
+        }
+
+        String specialChars = ""; // to get all special chars other than space
+
+        for (char each : name.toCharArray()) {
+            if(!Character.isLetterOrDigit(each) && each != ' '){  // getting all special character except for space
+                specialChars += each;
+            }
+        }
+
+        if(specialChars.length() > 0){ // if contains special characters other than space
+            System.err.println("Invalid Name: "+name);
+            System.exit(1);
+        }
+
+        if(!Character.isLetter(name.charAt(0))){ // if name does not start with letter
+            System.err.println("Invalid Name: "+name);
+            System.exit(1);
+        }
+
+        this.name = name;
+   /*     int specialChars=0;
         char [] chars=name.toCharArray();
         for (char aChar : chars) {
             if(!(Character.isLetterOrDigit(aChar)) && aChar!=' '){
@@ -27,11 +52,12 @@ public class Person {
             }
         }
 
-        if(name.isEmpty() || specialChars>0 || name==null){
-            System.err.println("invalid name");
+        if(name.isEmpty() || specialChars>0){
+            System.err.println("invalid name"+name);
             System.exit(1);
         }
-        this.name = name;
+
+        this.name = name; */
     }
 
     public void setAge(int age) {
