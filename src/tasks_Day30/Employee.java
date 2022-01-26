@@ -9,7 +9,7 @@ public class Employee {
     public boolean isFullTime;
     public double salary;
 
-    public void setInfo(String name, String jobTitle, int iD, char gender, boolean isFullTime, double salary) {
+    public void setInfo(  String name,String jobTitle, int iD, char gender, boolean isFullTime, double salary) {
         this.name = name;
         this.jobTitle = jobTitle;
         this.iD = iD;
